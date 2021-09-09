@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $main-font-family;
+    font-size: $main-font-size;
+    font-weight: normal;
+    line-height: $main-line-height;
+}
+
+img,
+svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+%list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+%link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+%btn {
+    border: none;
+    cursor: pointer;
+}
